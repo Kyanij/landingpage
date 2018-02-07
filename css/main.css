@@ -1,0 +1,469 @@
+
+
+
+
+
+/*		General CSS		*/
+body{
+	background: #faf9f9;
+	padding: 0px;
+	margin: 0px;
+}
+
+a:focus{
+	color: #fff!important;
+	text-decoration: none!important;
+}
+
+.container{
+	max-width: 1000px;
+}
+
+
+
+
+/*		Header 		*/
+
+header{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 110px;
+	z-index: 99;
+	background-color: #0f1110;
+	
+}
+
+header .logo{
+	display: table-cell;
+	margin: 45px 100px 0 0;
+}
+
+header .burger_icon{
+	display: none;
+	float: right;
+	background: #1f1f1f;
+	padding: 5px 10px;
+	text-transform: uppercase;
+
+	color: #43b779;
+	font-family: Roboto;
+	font-size: 14px;
+
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+
+	margin: 45px 10px 0 0;
+}
+
+header .burger_icon:hover{
+	cursor: pointer;
+}
+
+header .burger_icon.active{
+	background: #0f1110;
+	color: #ffffff;
+}
+
+header nav{
+	margin-top: 50px;
+	display: table-cell;
+	margin-left:100px;
+}
+
+header nav li{
+	float: left;
+	margin-left: 40px;
+}
+
+header nav li:first-child{
+	margin: 0;
+}
+
+header nav li a{
+	color: #fff;
+	font-family: Roboto;
+	font-size: 16px;
+	transition: all .8s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+}
+
+header nav li a:hover,
+header nav li a:focus{
+	text-decoration: none;
+	color: #B7EFD1!important;
+}
+
+header .social{
+	display: table-cell;
+	margin-top: 45px;
+}
+
+header .social li{
+	float: left;
+	margin-left: 20px;
+}
+
+header .social li:first-child{
+	margin: 0;
+}
+
+
+
+
+/*		Hero section 		*/
+
+.hero{
+	display: block;
+	position: relative;
+	width: 100%;
+    height: 800px;
+    object-fit: contain;
+	background:linear-gradient( rgba(15,17,16,0.8), rgba(15,17,16,0.8) ), url('../img/img-hero-image.png');;
+	background-size: cover;
+}
+
+.hero .caption{
+	position: absolute;
+	top: 50%;
+	left:15%;
+	transform:translate(0,-50%);
+	-webkit-transform:translate(0,-50%);
+	-moz-transform:translate(0,-50%);
+	-o-transform:translate(0,-50%);
+}
+
+.hero .caption h1{
+   position: absolute;
+   margin:-110px 0 1px 40px;
+   width: 922px;
+   height: 96px;
+   font-family: Roboto;
+   font-size: 50px;
+   font-weight: bold;
+   text-align: center;
+   color: #ffffff;
+   
+
+}
+
+.hero .caption p{
+  position: absolute;
+  width: 630px;
+  height: 84px;
+  opacity: 0.7;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+  color: #ffffff;
+  margin:-10px 0 0 220px;
+
+}
+
+
+.hero .caption a{
+	position: absolute;
+	margin:90px 0 10px 380px;
+}
+
+#slider .caption p{
+	margin: 0;
+}
+
+.What-you-should-have {
+  padding-top: 85px;
+  font-family: Roboto;
+  font-size: 48px;
+  line-height: 1;
+  text-align: center;
+  color: #9b9b9b;
+  padding-bottom: 35px;
+}
+
+.img_requirements_3 {
+  width: 300px;
+  height: 196px;
+  object-fit: contain;
+}
+
+.subtitle{
+	 width: 300px;
+    height: 24px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  text-align: center;
+  color: #27ad6c;
+  
+}
+
+.detail{
+	width: 300px;
+   height: 66px;
+	font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.57;
+  text-align: center;
+  color: #4a4a4a;
+
+}
+
+/*Middle Section*/
+
+.middle-section{
+	padding-top: 85px;
+}
+
+.middle-section h1{
+	width: 225px;
+  height: 57px;
+  font-family: Roboto;
+  font-size: 48px;
+  text-align: left;
+  color: #9b9b9b;
+}
+
+#latest{
+	width: 441px;
+  height: 57px;
+  font-family: Roboto;
+  font-size: 48px;
+  text-align: left;
+  color: #9b9b9b;
+}
+.middle-section li{
+	width: 400px;
+  height: 19px;
+ margin:70px;
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: left;
+  color: #27ad6c;
+}
+
+
+
+.middle-section hr{
+	width: 480px;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #88c542;
+}
+
+.global {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.separator{
+	margin: 0 0 110px 290px ;
+}
+.separator li{
+	float:left;
+	padding:15px;
+}
+
+.separator li hr{
+  width: 123px;
+  height: 1px;
+  background-color: #88c542;
+}
+
+/*Gallery*/
+
+.gallery{
+	width:100%;
+  
+}
+
+.gallery h1{
+	width: 570px;
+  height: 48px;
+  font-family: Roboto;
+  font-size: 38px;
+  line-height: 1;
+  text-align: center;
+  color: #9b9b9b;
+  margin-left:200px;
+  margin-bottom: 50px;
+}
+
+.gallery img{
+	width: 480px;
+  height: 400px;
+
+}
+
+
+
+/*		App features 		*/
+
+.app_features{
+	width: 100%;
+	padding: 100px 0 20px 0;
+	background-color: #423633;	
+}
+
+.app_features .title h1{
+  width: 354px;
+  height: 48px;
+  font-family: Roboto;
+  font-size: 48px;
+  line-height: 1;
+  text-align: center;
+  color: #ffffff;
+  margin:0 0 80px 360px;
+}
+
+.app_features h1{
+	color: #fff;
+	font-family: "open_semibold", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	margin: 50px 0 0 0;
+	word-break: break-word;
+}
+
+.app_features p{
+	color: #e0f7eb;
+	font-family: "open_regular", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 20px 0 0 0;
+	line-height: 28px;
+}
+
+.app_features .details{
+	margin-bottom: 80px;
+}
+
+.app_features .details:nth-child(3n+1){
+	clear: both;
+}
+
+
+/*Footer*/
+.footer{
+	width: 100%;
+  height: 70px;
+  background-color: #333333;
+  /*padding:30px 0 0 0;*/
+}
+
+.menu{
+	padding-top:20px;
+}
+
+.footer .menu li{
+	float:left;
+	color:#fff;
+	margin:0 25px 0 0;
+
+}
+
+.footer .menu li a{
+	color:#fff;
+	text-decoration: none;
+}
+
+
+.copyright{
+	width: 111px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 14px;
+  text-align: left;
+  color: #ffffff;
+  margin-left:60px;
+  padding-top:20px;
+}
+
+
+
+/*		Responsive CSS 		*/
+
+@media (max-width: 360px) {
+	.featured_on li{
+		display: block;
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+
+
+	/*		Header 		*/
+	header .logo{
+		margin-right: 0;
+	}
+
+	header .burger_icon{
+		display: block;
+	}
+
+	header nav{
+		width: 100%;
+		float: none;
+		background: #47ad76;
+		position: absolute;
+		margin-top: 130px;
+		left: 0;
+		display: none;
+	}
+
+
+	header nav li{
+		display: block;
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+
+	header nav li a{
+		display: block;
+		width: 100%;	
+		padding: 20px 0;
+		border-bottom: 1px solid #389965;
+	}
+
+	header nav li:first-child a{
+		border-top: 1px solid #389965;
+	}
+
+	header .social{
+		display: none;
+	}
+
+	header .social li{
+		margin-left: 10px;
+	}
+
+
+
+
+	/*		Hero section 		*/
+	.hero .caption{
+		margin-left: 0;
+	}
+
+
+
+
+	/*		About Section 		*/
+	.about .features_list {
+		text-align: center;
+		margin: 0;
+	}
+
+	.about .features_list ul li{
+		text-indent: 0;
+		background: transparent!important;
+		margin-bottom: 20px;
+	}
+
